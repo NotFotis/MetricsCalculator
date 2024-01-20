@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Berg Balance Scale"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    <!-- Example metric, you can add others similarly -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Από καθιστή προς την όρθια θέση"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerSittingToStanding"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ορθοστάτηση χωρίς υποστήριξη"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerStandingUnsupported"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Καθιστή θέση χωρίς υποστήριξη"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerSittingUnsupported"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Από όρθια θέση προς τη καθιστή θέση"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerStandingToSitting"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Μεταφορές"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTransfers"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ορθοστάτηση με μάτια κλειστά"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerStandingWithEyesClosed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ορθοστάτηση με πόδια κλειστά"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerStandingWithFeetTogether"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Τέντωμα προς τα εμπρός με απλωμένο βραχίονα"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerReachingForwardWithOutstretchedArm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ανάκτηση αντικειμένου από το πάτωμα"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerRetrievingObjectFromFloor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Γύρισμα να κοιτάξει πίσω"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTurningToLookBehind"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Στροφή 360 μοίρες"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTurning360Degrees"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Τοποθέτηση ποδιών εναλλάξ σε υποπόδιο"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerPlacingAlternateFootOnStool"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ορθοστάτηση με ένα πόδι εμπρός"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerStandingWithOneFootInFront"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ορθοστάτηση στο ένα πόδι"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerStandingOnOneFoot"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/dropdown_values"
+        android:layout_marginBottom="8dp"/>
+    <!-- Add other metrics here -->
+
+    <Button
+        android:id="@+id/btnCalculateTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Υπολογισμος"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"/>
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MOCAActivityResults">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOCA TEST"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/textViewOpticochorikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:text="Οπτικοχωρικές / Εκτελεστικές"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextOpticochorikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewOpticochorikes"
+        android:layout_marginTop="8dp"
+        android:hint="0-5" />
+
+    <TextView
+        android:id="@+id/textViewKatonomasia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Κατονομασία"
+        android:layout_below="@id/editTextOpticochorikes"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextKatonomasia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewKatonomasia"
+        android:layout_marginTop="8dp"
+        android:hint="0-3" />
+
+    <TextView
+        android:id="@+id/textViewProsoxi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Προσοχή 1"
+        android:layout_below="@id/editTextKatonomasia"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextProsoxi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewProsoxi1"
+        android:layout_marginTop="8dp"
+        android:hint="0-2" />
+
+    <TextView
+        android:id="@+id/textViewProsoxi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Προσοχή 2"
+        android:layout_below="@id/editTextProsoxi1"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextProsoxi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewProsoxi2"
+        android:layout_marginTop="8dp"
+        android:hint="0-1" />
+
+    <TextView
+        android:id="@+id/textViewProsoxi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Προσοχή 3"
+        android:layout_below="@id/editTextProsoxi2"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextProsoxi3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewProsoxi3"
+        android:layout_marginTop="8dp"
+        android:hint="0-3" />
+
+    <TextView
+        android:id="@+id/textViewGlossa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Γλώσσα"
+        android:layout_below="@id/editTextProsoxi3"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextGlossa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewGlossa"
+        android:layout_marginTop="8dp"
+        android:hint="0-2" />
+
+    <TextView
+        android:id="@+id/textViewRoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ροή"
+        android:layout_below="@id/editTextGlossa"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextRoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRoi"
+        android:layout_marginTop="8dp"
+        android:hint="0-1" />
+
+    <TextView
+        android:id="@+id/textViewAfairotikiSkepsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Αφαιρετική Σκέψη"
+        android:layout_below="@id/editTextRoi"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextAfairotikiSkepsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAfairotikiSkepsi"
+        android:layout_marginTop="8dp"
+        android:hint="0-2" />
+
+    <TextView
+        android:id="@+id/textViewKatistimeniAnaklisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Καθυστερημένη Ανάκληση"
+        android:layout_below="@id/editTextAfairotikiSkepsi"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextKatistimeniAnaklisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewKatistimeniAnaklisi"
+        android:layout_marginTop="8dp"
+        android:hint="0-5" />
+
+        <TextView
+            android:id="@+id/textViewProsanatolismos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Προσανατολισμός"
+            android:layout_below="@id/editTextKatistimeniAnaklisi"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextProsanatolismos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewProsanatolismos"
+            android:layout_marginTop="8dp"
+            android:hint="0-6" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextProsanatolismos"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:text="Υπολογισμός Αποτελεσμάτων" />
+    </RelativeLayout>
+</ScrollView>

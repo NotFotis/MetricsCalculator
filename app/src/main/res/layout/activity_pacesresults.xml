@@ -1,0 +1,191 @@
+<!-- activity_pacesresults.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".PACESActivityResults">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="PACES TEST"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            />
+        <!-- Item 1 -->
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 1"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 2 -->
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 2"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 3 -->
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 3"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 4 -->
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 4"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 5 -->
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 5"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 6 -->
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 6"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 7 -->
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 7"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 8 -->
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 8"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 9 -->
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 9"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 10 -->
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 10"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 11 -->
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 11"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 12 -->
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 12"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 13 -->
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 13"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 14 -->
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 14"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 15 -->
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 15"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 16 -->
+        <EditText
+            android:id="@+id/editText16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 16"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 17 -->
+        <EditText
+            android:id="@+id/editText17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 17"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Item 18 -->
+        <EditText
+            android:id="@+id/editText18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Εισαγάγετε την τιμή για το στοιχείο 18"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Υπολογισμος Συνολου" />
+    </LinearLayout>
+</ScrollView>

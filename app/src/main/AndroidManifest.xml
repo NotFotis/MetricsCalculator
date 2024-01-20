@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MetricsCalculator"
+        tools:targetApi="31">
+        <activity
+            android:name=".TechnologyAcceptanceActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".TechnologyAcceptanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PACESActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".PACESActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IGEQActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".IGEQActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SUSActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".SUSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StroopActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".StroopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DigitSpanActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".DigitSpanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SubstitutionActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".SubstitutionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrialActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".TrialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MMSEActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".MMSEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MOCAActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".TUGActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".MOCAActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TUGActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FRTActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".FRTActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CSRTActivityResults"
+            android:exported="false" />
+        <activity
+            android:name=".CSRTActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BBSResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BBSResultsFull"
+            android:exported="false" />
+        <activity
+            android:name=".SSTResultsFull"
+            android:exported="false" />
+        <activity
+            android:name=".SSTResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

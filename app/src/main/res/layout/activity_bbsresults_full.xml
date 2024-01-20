@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".SSTResultsActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Αποτελέσματα BBS"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/subtitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="▪️Η βαθμολογία 56 δείχνει λειτουργική ισορροπία.\n\n
+    ▪  Η βαθμολογία &lt; 45 υποδηλώνει ότι τα άτομα μπορεί να διατρέχουν μεγαλύτερο κίνδυνο πτώσης.\n\n
+    ▪  Η βαθμολογία ≤49 υποδηλώνει κίνδυνο πτώσεων σε άτομα με εγκεφαλικό"
+        android:layout_below="@id/titleText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/subtitleText">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="323dp"
+            android:fillViewport="true">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/subtitleText"> <!-- Set below the TextView -->
+
+                <TableLayout
+                    android:id="@+id/resultTable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="*">
+
+                    <!-- Table header -->
+                    <TableRow android:layout_width="341dp">
+
+                        <TextView
+                            android:layout_column="0"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Από καθιστή προς την όρθια θέση | " />
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Ορθοστάτηση χωρίς υποστήριξη | " />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Καθιστή θέση χωρίς υποστήριξη | " />
+
+                        <TextView
+                            android:layout_column="3"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Από όρθια θέση προς τη καθιστή θέση | " />
+
+                        <TextView
+                            android:layout_column="3"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Μεταφορές | " />
+
+                        <TextView
+                            android:layout_column="0"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Ορθοστάτηση με μάτια κλειστά | " />
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Ορθοστάτηση με πόδια κλειστά | " />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Τέντωμα προς τα εμπρός με απλωμένο βραχίονα | " />
+
+                        <TextView
+                            android:layout_column="3"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Ανάκτηση αντικειμένου από το πάτωμα | " />
+
+                        <TextView
+                            android:layout_column="0"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Γύρισμα να κοιτάξει πίσω | " />
+
+                        <TextView
+                            android:layout_column="1"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Στροφή 360 μοίρες | " />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Τοποθέτηση ποδιών εναλλάξ σε υποπόδιο | " />
+
+                        <TextView
+                            android:layout_column="3"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Ορθοστάτηση με ένα πόδι εμπρός | " />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Ορθοστάτηση στο ένα πόδι | " />
+
+                        <TextView
+                            android:layout_column="2"
+                            android:layout_gravity="center"
+                            android:padding="3dip"
+                            android:textSize="18sp"
+                            android:text="Σύνολο" />
+
+
+                    </TableRow>
+                </TableLayout>
+            </ScrollView>
+        </HorizontalScrollView>
+    </RelativeLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addResultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/baseline_add_24"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/baseline_home_24"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    tools:context=".CSRTActivityResults">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="CSRT Test "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Existing layout elements -->
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:layout_width="374dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/titleText"
+        android:layout_marginTop="16dp"
+        android:entries="@array/genders_array" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/genderSpinner"
+        android:layout_marginTop="16dp"
+        android:hint="Ηλικία"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/reactionTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ageEditText"
+        android:layout_marginTop="16dp"
+        android:hint="Χρόνος Αντίδρασης"
+        android:inputType="numberDecimal" />
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reactionTimeEditText"
+        android:layout_marginTop="16dp"
+        android:text="Υπολογισμος"
+        android:layout_centerHorizontal="true"
+        android:onClick="onCalculateButtonClick" />
+
+
+</RelativeLayout>

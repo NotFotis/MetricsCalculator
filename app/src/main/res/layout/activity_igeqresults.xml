@@ -1,0 +1,283 @@
+<!-- res/layout/activity_in_game_geq.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".IGEQActivityResults">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".InGameGEQActivity">
+    <!-- Add TextViews for item descriptions -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:text="IGEQ Test"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subtitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@id/titleText"
+            android:text="0. καθόλου\n1. ελαφρώς\n2. μέτρια\n3. αρκετά\n4. Εξαιρετικά"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/subtitleText"
+        android:text="1. Με ενδιέφερε η ιστορία του παιχνιδιού"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="2. Ένιωσα επιτυχημένος"
+        android:layout_below="@id/editTextItem1"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="3. Ένιωσα βαριεστημένος"
+        android:layout_below="@id/editTextItem2"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="4. Το βρήκα εντυπωσιακό"
+        android:layout_below="@id/editTextItem3"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="5. Ξέχασα τα πάντα γύρω μου"
+        android:layout_below="@id/editTextItem4"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="6. Ένιωσα απογοήτευση"
+        android:layout_below="@id/editTextItem5"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="7. Το βρήκα κουραστικό"
+        android:layout_below="@id/editTextItem6"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="8. Ένιωσα οξύθυμος"
+        android:layout_below="@id/editTextItem7"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="9. Ένιωσα επιδέξιος"
+        android:layout_below="@id/editTextItem8"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="10. Ένιωσα πλήρως απορροφημένος"
+        android:layout_below="@id/editTextItem9"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="11. Ένιωσα ικανοποιημένος"
+        android:layout_below="@id/editTextItem10"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="12. Ένιωσα πρόκληση"
+        android:layout_below="@id/editTextItem11"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="13. Έπρεπε να καταβάλω μεγάλη προσπάθεια σε αυτό"
+        android:layout_below="@id/editTextItem12"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItem14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="14. Ένιωσα καλά"
+        android:layout_below="@id/editTextItem13"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Add EditText fields for each item -->
+    <EditText
+        android:id="@+id/editTextItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem1"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem2"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem3"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem4"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem5"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem6"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem7"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem8"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem9"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem10"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem11"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem12"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem13"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <EditText
+        android:id="@+id/editTextItem14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItem14"
+        android:layout_marginTop="8dp"
+        android:hint="0-4"/>
+
+    <!-- Add the Calculate button -->
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextItem14"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="Υπολογισμος"/>
+    </RelativeLayout>
+</ScrollView>

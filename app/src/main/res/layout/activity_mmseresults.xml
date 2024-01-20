@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MMSEActivityResults">
+
+    <TextView
+        android:id="@+id/textViewitle"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:text="MMSE TEST" />
+    <!-- Add similar TextView elements for each category -->
+    <TextView
+        android:id="@+id/textViewProsanaforlismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Προσαναγνώριση / Αφαίρετική Σκέψη"
+        android:layout_below="@id/textViewitle"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextProsanaforlismo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewProsanaforlismo"
+        android:layout_marginTop="8dp"
+        android:hint="0-2" />
+
+    <!-- Add similar TextView and EditText elements for other categories -->
+    <TextView
+        android:id="@+id/textViewEncharaxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Εγχάραξη"
+        android:layout_below="@id/editTextProsanaforlismo"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextEncharaxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewEncharaxi"
+        android:layout_marginTop="8dp"
+        android:hint="0-3" />
+
+    <!-- Add similar TextView and EditText elements for the remaining categories -->
+    <TextView
+        android:id="@+id/TextProsokhIkanotita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Προσοχή και ικανότητα υπολογισμών"
+        android:layout_below="@id/editTextEncharaxi"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextProsokhIkanotita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextProsokhIkanotita"
+        android:layout_marginTop="8dp"
+        android:hint="0-5" />
+    <TextView
+        android:id="@+id/TextAnaklisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ανάκληση"
+        android:layout_below="@id/editTextProsokhIkanotita"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextAnaklisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextAnaklisi"
+        android:layout_marginTop="8dp"
+        android:hint="0-3" />
+    <TextView
+        android:id="@+id/TextGlossa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Γλώσσα"
+        android:layout_below="@id/editTextAnaklisi"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextGlossa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextGlossa"
+        android:layout_marginTop="8dp"
+        android:hint="0-9" />
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextGlossa"
+    android:layout_marginTop="16dp"
+    android:text="Υπολογισμός Συνόλου" />
+
+</RelativeLayout>

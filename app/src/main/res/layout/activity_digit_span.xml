@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    tools:context=".DigitSpanActivity">
+
+    <TextView
+        android:id="@+id/titleTextDigitSpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Αποτελέσματα Digit Span Test"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="464dp"
+        android:layout_below="@id/titleTextDigitSpan">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/titleTextDigitSpan">
+
+            <TableLayout
+                android:id="@+id/resultTableDigitSpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <!-- Table header -->
+                <TableRow android:layout_width="341dp">
+
+                    <TextView
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:padding="3dip"
+                        android:text="Μέγεθος"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_gravity="center"
+                        android:padding="3dip"
+                        android:text="Παρουσιάστηκαν"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_column="2"
+                        android:layout_gravity="center"
+                        android:padding="3dip"
+                        android:text="Απαντήθηκαν"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_column="3"
+                        android:layout_gravity="center"
+                        android:padding="3dip"
+                        android:text="Αποτέλεσμα"
+                        android:textSize="18sp" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addResultButtonDigitSpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/baseline_add_24"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/homeButtonDigitSpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/baseline_home_24"
+        />
+</RelativeLayout>

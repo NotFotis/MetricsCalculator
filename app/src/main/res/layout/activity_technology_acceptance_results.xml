@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".TechnologyAcceptanceActivityResults">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <!-- TAM Item 01 -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="TECHNOLOGY ACCEPTANCE 3 TEST"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/subtitle1Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Αντιληπτή χρησιμότητα"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_below="@id/titleText"
+            android:textStyle="bold"
+            />
+    <EditText
+        android:id="@+id/editTextTAM01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TAM Στοιχείο 01"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/subtitle1Text"
+        android:inputType="numberDecimal"/>
+
+    <!-- TAM Στοιχείο 02 -->
+    <EditText
+        android:id="@+id/editTextTAM02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TAM Στοιχείο 02"
+        android:layout_below="@id/editTextTAM01"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- TAM Στοιχείο 03 -->
+    <EditText
+        android:id="@+id/editTextTAM03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TAM Στοιχείο 03"
+        android:layout_below="@id/editTextTAM02"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- TAM Στοιχείο 04 -->
+    <EditText
+        android:id="@+id/editTextTAM04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TAM Στοιχείο 04"
+        android:layout_below="@id/editTextTAM03"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- TAM Στοιχείο 05 -->
+    <EditText
+        android:id="@+id/editTextTAM05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TAM Στοιχείο 05"
+        android:layout_below="@id/editTextTAM04"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- TAM Στοιχείο 06 -->
+    <EditText
+        android:id="@+id/editTextTAM06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TAM Στοιχείο 06"
+        android:layout_below="@id/editTextTAM05"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+        <TextView
+            android:id="@+id/subtitle2Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Αντιληπτή ευκολία χρήσης"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/editTextTAM06"
+            android:textStyle="bold"
+            />
+
+    <!-- TAM Στοιχείο 07 -->
+    <EditText
+        android:id="@+id/editTextTAM07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TAM Στοιχείο 07"
+        android:layout_below="@id/subtitle2Text"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- TAM Στοιχείο 08 -->
+    <EditText
+        android:id="@+id/editTextTAM08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TAM Στοιχείο 08"
+        android:layout_below="@id/editTextTAM07"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- TAM Στοιχείο 09 -->
+    <EditText
+        android:id="@+id/editTextTAM09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TAM Στοιχείο 09"
+        android:layout_below="@id/editTextTAM08"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- TAM Στοιχείο 10 -->
+    <EditText
+        android:id="@+id/editTextTAM10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTAM09"
+        android:hint="TAM Στοιχείο 10"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- TAM Στοιχείο 11 -->
+    <EditText
+        android:id="@+id/editTextTAM11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTAM10"
+        android:hint="TAM Στοιχείο 11"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- TAM Στοιχείο 12 -->
+    <EditText
+        android:id="@+id/editTextTAM12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTAM11"
+        android:hint="TAM Στοιχείο 12"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTAM12"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="30dp"
+        android:text="Υπολογισμος"/>
+
+</RelativeLayout>
+</ScrollView>

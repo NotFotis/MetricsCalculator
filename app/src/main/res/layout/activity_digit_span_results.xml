@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digit Span Activity Results"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Μέγεθος σειράς αριθμών (π.χ. 3)"
+        android:layout_below="@id/textViewTitle"
+        android:inputType="number"
+        android:layout_marginBottom="8dp"/>
+    <EditText
+        android:id="@+id/editTextPresented"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Παρουσιασμένοι αριθμοί (π.χ. 1 2 3)"
+        android:layout_below="@id/editTextLength"
+        android:inputType="number"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Αριθμοί απάντησης (π.χ. 1 2 3)"
+        android:inputType="number"
+        android:layout_below="@id/editTextPresented"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Υπολογισμος"
+        android:layout_below="@id/editTextResponse"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

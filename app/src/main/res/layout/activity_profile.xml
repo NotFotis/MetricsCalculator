@@ -1,0 +1,275 @@
+<!-- res/layout/activity_profile.xml -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="ΠΡΟΦΙΛ ΧΡΗΣΤΗ"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- User attributes -->
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/tvFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/tvLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/tvDateOfBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/tvEducation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEducation"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="#C30000"
+            android:text="ΑΠΟΣΥΝΔΕΣΗ"
+            android:textColor="#FFFFFF" />
+
+        <!-- Category 1: "Μετρικές για Κινητικό Άξονα" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Μετρικές για Κινητικό Άξονα"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            />
+
+        <!-- Buttons for the first category -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="30 Second Sit to Stand Test (30SST)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Berg Balance Scale (BBS)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Choice Stepping Reaction Time (CSRT)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Functional Reach Test (FRT)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Time Up and Go (TUG)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <!-- Category 2: "Μετρικές για Γνωστικό Άξονα" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Μετρικές για Γνωστικό Άξονα"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="8dp"
+            />
+
+        <!-- Buttons for the second category -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Montreal Cognitive Assessment (ΜοCA)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Mini-Mental State Examination (MMSE)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Trail Making Test (Α και Β)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Letter Digit Substitution Test"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Digit Span Test"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Stroop Color-Word Test"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <!-- Category 3: "Μετρικές για Τεχνολογικό Άξονα" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Μετρικές για Τεχνολογικό Άξονα"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            />
+
+        <!-- Buttons for the third category -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="System Usability Scale (SUS)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=" In-Game Game Experience Questionnaire (iGEQ)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Physical Activity Enjoyment Scale (PACES)"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Perceived Usefulness, Perceived Ease of Use και Output Quality (Technology Acceptance Model 3)"
+                android:layout_marginBottom="50dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
